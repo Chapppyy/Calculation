@@ -1,4 +1,4 @@
-#include <iostream>>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -10,8 +10,11 @@ cout << "Enter an operation (+, -, *, /): ";
 cin >> operation;
 
 //Prompt user to enter two numbers
-cout << "Enter two numbers: ";
-cin >> num1 >> num2;
+cout << "Enter first number: ";
+cin >> num1;
+
+cout << "Enter second number: ";
+cin >> num2;
 
 //Perform the operation based on the user's input
 switch (operation) {
